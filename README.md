@@ -1,14 +1,14 @@
-# Student Management System (Java)
+# Task Manager (Python Tkinter)
 
-A basic file-based student management system.
+A simple desktop task manager app with a GUI.
 
 ## Features
-- Add student records
-- View all students
-- Search students by roll number
-- Delete student records
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Persistent storage in JSON file
 
 ## How to Run
-1. Save `StudentManagement.java` and `students.txt` in the same folder.
-2. Compile: `javac StudentManagement.java`
-3. Run: `java StudentManagement`
+1. Install Python 3.
+2. Save `task_manager.py` and `tasks.json` in the same folder.
+3. Run: `python task_manager.py`
