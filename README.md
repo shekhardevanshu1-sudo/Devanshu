@@ -1,14 +1,14 @@
-# Library Database Management (SQL)
+# Student Management System (Java)
 
-A simple SQL-based library system with Books, Members, and IssuedBooks tables.
+A basic file-based student management system.
 
 ## Features
-- Store book details
-- Store member details
-- Issue books to members
-- Query issued and available books
+- Add student records
+- View all students
+- Search students by roll number
+- Delete student records
 
 ## How to Run
-1. Open MySQL or any SQL client.
-2. Run `library.sql` to create database and tables.
-3. Execute queries to view and manipulate data.
+1. Save `StudentManagement.java` and `students.txt` in the same folder.
+2. Compile: `javac StudentManagement.java`
+3. Run: `java StudentManagement`
